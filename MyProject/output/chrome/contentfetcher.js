@@ -9,7 +9,8 @@ var newsFeedParentID = "stream_pagelet";
 var newsFeedID = "topnews_main_stream_";
 var postClass = "_4-u2 mbm _4mrt _5v3q _4-u8";
 var contentClass = "_5pbx userContent";
-
+var serverURL = "https://tugasakhir-13512018.herokuapp.com/";
+//var serverURL = "http://localhost:5000/";
 
 /* Creating Observer */
 var observer = new MutationObserver(function(mutations) {
@@ -110,7 +111,7 @@ function giveBGColor(sentiment, sentVal) {
 function doSentimentAnalysis(content,callback) {
   var details = {
       method: 'POST',
-      url: 'http://localhost:3000/',
+      url: serverURL,
       params: {'postContent': content},
       contentType: 'json'
   };
