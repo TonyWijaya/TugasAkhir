@@ -1,0 +1,15 @@
+{
+    "name": "TugasAkhirKango",
+    "description": "TugasAkhirKango", 
+    "creator": "Tony", 
+    "version": "0.9.0",
+    "content_scripts": [
+    	"contentfetcher.js"
+    ],
+    "homepage_url": "http://kangoextensions.com/", 
+    "browser_button": {
+        "caption": "Tugas Akhir", 
+        "icon": "icons/button.png", 
+        "tooltipText": "Tugas Akhir"
+    }
+}

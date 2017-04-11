@@ -1,0 +1,19 @@
+{
+    "content_scripts": [
+        "contentfetcher.js"
+    ], 
+    "browser_button": {
+        "caption": "Tugas Akhir", 
+        "tooltipText": "Tugas Akhir", 
+        "icon": "icons/button.png"
+    }, 
+    "creator": "Tony", 
+    "description": "TugasAkhirKango", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "developer_id": "YOUR_SAFARI_DEVELOPER_ID", 
+    "homepage_url": "http://kangoextensions.com/", 
+    "version": "0.9.0", 
+    "framework_package_id": "dev", 
+    "id": "com.kangoextensions.myproject", 
+    "name": "TugasAkhirKango"
+}
